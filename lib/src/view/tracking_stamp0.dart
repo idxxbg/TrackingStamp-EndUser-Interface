@@ -54,18 +54,37 @@ class TrackingStamp extends StatelessWidget {
             ),
           ),
           Center(
-            child: Container(
-                color: Colors.transparent,
-                padding: EdgeInsets.only(top: screenHeight / 7),
-                width: screenWidth / 2.1,
-                height: screenHeight / 2.6,
-                child:
-                    // const RiveAnimation.asset(
-                    //   'assets/video/location_animation.riv',
-                    // )
-                    Image.asset('assets/images/ts9.gif')
-                //  Hero(tag: 'video', child: VideoPlayer(controller)),
-                ),
+            child:
+                // Column(
+                //   children: [
+                //     SizedBox(
+                //       height: screenHeight / 2.2,
+                //     ),
+                //     SizedBox(
+                //       width: screenWidth / 2,
+                //       height: screenHeight / 3,
+                //       child: Hero(
+                //         tag: ,
+                //         child: Image.asset('assets/images/ts9.gif', fit: BoxFit.fill)),
+                //     ),
+                //   ],
+                // )
+
+                Container(
+                    color: Colors.transparent,
+                    padding: EdgeInsets.only(top: screenHeight / 6),
+                    width: screenWidth / 2.4,
+                    height: screenHeight / 2.5,
+                    child:
+                        // const RiveAnimation.asset(
+                        //   'assets/video/location_animation.riv',
+                        // )
+                        Image.asset(
+                      'assets/images/ts9.gif',
+                      fit: BoxFit.fill,
+                    )
+                    //  Hero(tag: 'video', child: VideoPlayer(controller)),
+                    ),
           ),
           // xử lý hình ảnh
           Positioned(
